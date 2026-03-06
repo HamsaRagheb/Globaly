@@ -450,7 +450,7 @@ nav .nav-second-content .personal-info a:hover {
     }
 }
 /* End Nav */
-/* Start Statistics */
+/* Start About */
 #about{
     background-image: url('../images/imgi_14_case21.jpg');
     background-size: cover;
@@ -522,7 +522,7 @@ nav .nav-second-content .personal-info a:hover {
 #about ul li p {
     margin-top: 20px;
 }
-/* End Statistics */
+/* End About */
 /* Start Testimonials */
 #testimonials{
     padding-top: var(--padding-section);
@@ -811,7 +811,7 @@ you should always go from the largest value to the smallest. */
     }
 }
 /* End Landing */
-/* Start Business */
+/* Start Blog */
 #blog{
     padding-top: var(--padding-section);
     padding-bottom: var(--padding-section);
@@ -918,7 +918,7 @@ you should always go from the largest value to the smallest. */
 #blog .view:hover {
     background-color: var(--hover-background);
 }
-/* End Business */
+/* End Blog */
 /* Start Case Studies */
 #case-studies{
     background-image: url(../images/imgi_13_case.jpg);
@@ -995,7 +995,7 @@ you should always go from the largest value to the smallest. */
     color: var(--secondary-color);
 }
 /* End Case Studies */
-/* Start Business Impact */
+/* Start Solutions */
 #solutions{
     height: 442px;
     background-image: url(../images/imgi_15_revenue.jpg);
@@ -1045,8 +1045,8 @@ you should always go from the largest value to the smallest. */
     background-color: white;
     color: var(--secondary-color);
 }
-/* End Business Impact */
-/* Start Consultation */
+/* End Solutions */
+/* Start Contact */
 #contact{
     padding-top: var(--padding-section);
     padding-bottom: var(--padding-section);
@@ -1134,7 +1134,7 @@ you should always go from the largest value to the smallest. */
 #contact form button:hover {
     background-color: var(--hover-background);
 }
-/* End Consultation */
+/* End Contact */
 /* Start Footer */
 footer{
     padding-top: var(--padding-section);
@@ -1153,7 +1153,7 @@ footer div{
 }
 /* End Footer */
 @keyframes changeWidth {
-    form{
+    from{
         width: 0px;
     }
     to{

@@ -54,10 +54,10 @@ const rightArrow = document.querySelector(".right-arrow");
 const leftArrow = document.querySelector(".left-arrow");
 
 const images = [
-  "../images/Background_1.png",
-  "../images/Background_2.png",
-  "../images/Background_4.png",
-  "../images/Background_3.png",
+  "images/Background_1.png",
+  "images/Background_2.png",
+  "images/Background_4.png",
+  "images/Background_3.png",
 ];
 
 let currentImage = 0;
