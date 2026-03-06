@@ -2,6 +2,15 @@
  *
  * @format
  */
+/* Start Loader*/
+window.addEventListener("load", function () {
+  const loader = this.document.getElementById("loader");
+  this.setTimeout(() => {
+    loader.style.display = "none";
+    document.body.style.overflowY = "auto";
+  }, 2500);
+});
+/* End Loader*/
 /** Start Header */
 const searchInput = document.getElementById("navSearch");
 const links = document.querySelectorAll(".nav-links a");
