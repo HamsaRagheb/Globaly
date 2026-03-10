@@ -79,6 +79,15 @@ a{
     justify-content: center;
     align-items: center;
     z-index: 10001;
+    opacity: 1;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -ms-transition: opacity 2s;
+    -o-transition: opacity 2s;
+}
+#loader.hide{
+    opacity: 0;
 }
 #loader .spinner{
     width: 50px;
@@ -452,7 +461,7 @@ nav .nav-second-content .personal-info a{
 nav .nav-second-content .personal-info a:hover {
     color: var(--secondary-color);
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
     nav .nav-second-content {
             gap: 20px;
     }
@@ -462,7 +471,6 @@ nav .nav-second-content .personal-info a:hover {
     nav .nav-second-content ul.nav-links li a {
         padding: 20px;
         color: white;
-        justify-content: flex-start;
     }
     nav .nav-second-content ul.nav-links li a:hover {
         color: var(--secondary-color);
